@@ -1,8 +1,3 @@
-/*
-    in form first submit prevent func(which refresh page) excecuted so we cant use onclick
-    preventdefault() will prevent page from refresh it prevents from default func
-
-*/
 document.getElementById("bmi-form").addEventListener("submit", function (e) {
 
     e.preventDefault();
